@@ -10,17 +10,25 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Spectral:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style="--gold:#b07fe0; --gold-dim:#7c53a3; --ember:#9c3049; --ember-dim:#601f30; --seal:#6e1526;">
 <div class="grain"></div>
-
-<nav class="nav">
-  <a href="#top" class="nav__mark">ANTCK</a>
-  <div class="nav__links">
-    <a href="#projet">Projet en cours</a>
-    <a href="#idees">Idées</a>
-    <a href="#studio">Le studio</a>
-  </div>
-</nav>
+<aside class="sidebar">
+  <a href="index.html" class="sidebar__mark">ANTCK</a>
+  <p class="sidebar__label">Projet en cours</p>
+  <nav class="sidebar__nav">
+    <a href="goromet.html" class="sidebar__link is-active">Goromet</a>
+    <div class="sidebar__divider"></div><p class="sidebar__label">Portfolio</p>
+    <a href="ramforge.html" class="sidebar__link">RamForge</a>
+    <a href="axe-of-mythologique.html" class="sidebar__link">Axe Of Mythologique</a>
+    <a href="richemond.html" class="sidebar__link">Richemond</a>
+    <a href="shot-hot-paper.html" class="sidebar__link">Shot-HOT-Paper</a>
+    <a href="loracle.html" class="sidebar__link">L'Oracle</a>
+    <a href="for-stars.html" class="sidebar__link">For Stars</a>
+    <a href="morphmyfriend.html" class="sidebar__link">MorphMyFriend</a>
+    <a href="last-world.html" class="sidebar__link">Last World</a>
+  </nav>
+</aside>
+<main class="main">
 
 <header class="hero" id="top">
   <p class="hero__eyebrow">Studio de jeux vidéo indépendant</p>
@@ -88,7 +96,6 @@
     </div>
 
     <div class="grid">
-
       <article class="card">
         <a href="ramforge.html"><div class="card__image"><img src="ramforge.jpg" alt="RamForge"></div></a>
         <div class="card__body">
@@ -96,13 +103,14 @@
             <h3 class="card__title"><a href="ramforge.html" style="color:inherit; text-decoration:none;">RamForge</a></h3>
             <span class="seal">Soon</span>
           </div>
-          <p class="card__desc">Un univers sombre bâti autour d'un système de métiers et d'un bestiaire — les fondations d'un jeu de rôle à l'ambiance grimdark.</p>
+          <p class="card__desc">Un MMORPG tour par tour inspiré de Wakfu, où la magie forge des héros au sein de quatre grandes capitales rivales.</p>
           <div class="card__tags">
-            <span class="tag">3D</span><span class="tag">Unity</span>
+            <span class="tag">3D</span>
+            <span class="tag">Unity</span>
+            <span class="tag">MMORPG</span>
           </div>
         </div>
       </article>
-
       <article class="card">
         <a href="axe-of-mythologique.html"><div class="card__image"><img src="axe-of-mythologique.jpg" alt="Axe Of Mythologique"></div></a>
         <div class="card__body">
@@ -112,11 +120,11 @@
           </div>
           <p class="card__desc">Un système de métiers et de construction ancré dans la mythologie — un monde encore en cours d'écriture.</p>
           <div class="card__tags">
-            <span class="tag">3D</span><span class="tag">Unreal Engine</span>
+            <span class="tag">3D</span>
+            <span class="tag">Unreal Engine</span>
           </div>
         </div>
       </article>
-
       <article class="card">
         <a href="shot-hot-paper.html"><div class="card__image"><img src="shot-hot-paper.jpg" alt="Shot-HOT-Paper"></div></a>
         <div class="card__body">
@@ -126,11 +134,13 @@
           </div>
           <p class="card__desc">Un TPS d'action nerveux, premier prototype déjà versionné.</p>
           <div class="card__tags">
-            <span class="tag">Action</span><span class="tag">TPS</span><span class="tag">Unity</span><span class="tag">v0.0.0.1</span>
+            <span class="tag">Action</span>
+            <span class="tag">TPS</span>
+            <span class="tag">Unity</span>
+            <span class="tag">v0.0.0.1</span>
           </div>
         </div>
       </article>
-
       <article class="card">
         <a href="loracle.html"><div class="card__image"><img src="loracle.jpg" alt="L'Oracle"></div></a>
         <div class="card__body">
@@ -140,11 +150,12 @@
           </div>
           <p class="card__desc">Une survie en univers futuriste, aux confins d'un monde qui ne pardonne rien.</p>
           <div class="card__tags">
-            <span class="tag">3D</span><span class="tag">Survie</span><span class="tag">Unreal Engine</span>
+            <span class="tag">3D</span>
+            <span class="tag">Survie</span>
+            <span class="tag">Unreal Engine</span>
           </div>
         </div>
       </article>
-
       <article class="card">
         <a href="for-stars.html"><div class="card__image"><img src="for-stars.jpg" alt="For Stars"></div></a>
         <div class="card__body">
@@ -154,11 +165,11 @@
           </div>
           <p class="card__desc">Un jeu de stratégie pensé pour des batailles à très grande échelle, jusqu'à 128 contre 128.</p>
           <div class="card__tags">
-            <span class="tag">3D</span><span class="tag">Stratégie</span>
+            <span class="tag">3D</span>
+            <span class="tag">Stratégie</span>
           </div>
         </div>
       </article>
-
       <article class="card">
         <a href="richemond.html"><div class="card__image"><img src="richemond.jpg" alt="Richemond"></div></a>
         <div class="card__body">
@@ -168,11 +179,11 @@
           </div>
           <p class="card__desc">Un projet en 2D, encore à un stade précoce de conception.</p>
           <div class="card__tags">
-            <span class="tag">2D</span><span class="tag">Unity</span>
+            <span class="tag">2D</span>
+            <span class="tag">Unity</span>
           </div>
         </div>
       </article>
-
       <article class="card">
         <a href="morphmyfriend.html"><div class="card__image"><img src="morphmyfriend.jpg" alt="MorphMyFriend"></div></a>
         <div class="card__body">
@@ -186,7 +197,6 @@
           </div>
         </div>
       </article>
-
       <article class="card">
         <a href="last-world.html"><div class="card__image"><img src="last-world.jpg" alt="Last World"></div></a>
         <div class="card__body">
@@ -200,24 +210,40 @@
           </div>
         </div>
       </article>
-
     </div>
   </div>
 </section>
 
 <section class="section" id="studio">
-  <div class="container studio">
-    <p class="studio__name">ANTCK</p>
-    <p class="studio__text">
-      Un studio qui démarre seul, avec l'ambition de devenir une petite équipe de trois à cinq personnes.
-      Chaque idée présentée ici est une pierre posée en attendant les mains qui viendront bâtir le reste.
-    </p>
+  <div class="container about">
+    <p class="about__name">Théo Derwey</p>
+    <p class="about__role">Fondateur — AntCK</p>
+    <div class="about__text">
+      <p>
+        Je conçois et développe AntCK seul, avec l'ambition de bâtir progressivement un vrai studio :
+        une petite équipe de trois à cinq personnes, réunie autour d'univers exigeants plutôt que de suivre
+        les tendances du moment.
+      </p>
+      <p>
+        Mon travail navigue entre plusieurs genres et moteurs — un tycoon d'action médiéval sous Unreal
+        Engine (<a href="goromet.html" style="color:var(--gold);">Goromet</a>), aux côtés d'univers plus anciens
+        comme <a href="ramforge.html" style="color:var(--gold);">RamForge</a>, pensé comme un MMORPG tour par tour.
+        Chaque projet du portfolio est une pierre posée en attendant les mains qui viendront bâtir le reste.
+      </p>
+      <p>
+        <em>Cette section est un premier brouillon — dis-moi ce que tu veux ajuster ou ajouter (parcours,
+        liens de contact, réseaux) pour qu'elle te ressemble vraiment.</em>
+      </p>
+    </div>
+    <div class="about__ambitions">
+      <span class="pill">Solo → équipe de 3-5</span>
+      <span class="pill">Unreal Engine &amp; Unity</span>
+      <span class="pill">Univers originaux</span>
+    </div>
   </div>
 </section>
 
-<footer class="footer">
-  AntCK — Studio de jeux vidéo indépendant
-</footer>
-
+<footer class="footer">AntCK — Studio de jeux vidéo indépendant</footer>
+</main>
 </body>
 </html>
